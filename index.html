@@ -1,14 +1,25 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+    <!-- Metas -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="HTML, CSS, JavaScript, Programador, Trainee, junior, portafolio,leandro,demarchi">
+    <meta name="description" content="Soy Leandro Demarchi Desarollador web Trainee y este es mi Portafolio">
+    <meta name="author" content="Leandro Demarchi">
+
+    <!-- LINKS -->
+    <link rel="shortcut icon" href="./IMAGE/portafolio.ico" type="image/x-icon">
     <link rel="stylesheet" href="/Proyecto Final Integrador - Argentina Programa 4.0 - Leandro Demarchi/CSS/style.css">
     <link rel="stylesheet" src="//normalize-css.googlecode.com/svn/trunk/normalize.css" />
+    <link rel="JavaScript" href="./JS/javascript.js">
+
+    <!-- TITULO -->
     <title>CV ONLINE</title>
 </head>
 <body>
+    
     <!--  -->
     <header>
         <!-- Imagen Principal -->
@@ -24,11 +35,12 @@
                 <li class="nav_lista"> <a href="#ubicacion"><img class="nav_icon" src="./IMAGE/geo-alt-fill.svg" alt="Icono Ubicacion" srcset=""></a></li>            </ul>
         </nav>
     </header>
+    
     <!--  -->
     <article >
         <section id="persona">
             <h1>Leandro Demarchi</h1>
-            <samp>Programador Web Jr.</samp>
+            <samp>Programador Web <strong>Trainee</strong> </samp>
         </section>
 
         <section id="proyectos">
@@ -37,36 +49,87 @@
             <img class="img_1" src="./IMAGE/flecha.png" alt="" srcset="">
             <img class="img_2" src="./IMAGE/flecha.png" alt="" srcset="">
         </section>
+        
         <div class="conteiner_skills black">
         </div>
 
-        <section id="contacto">
-            <h2>contacto</h2>
-            <h3>telefono</h3>
-            <h3>gmail</h3>
-        </section>
+        <!-- HABILIDADES -->
+        <div class="conteiner_skills">
+            
+            <div class="image">
+                <img image__img src="./IMAGE/html.svg" alt="" srcset="">
+                <div class="image__overlay">
+                    <div class="image__title">HTML</div>
+                    <p class="image__description">Intermedio</p>
+                </div>
+            </div>
+            
+            <div class="image">
+                <img image__img src="./IMAGE/css.svg" alt="" srcset="">
+                <div class="image__overlay">
+                    <div class="image__title">CSS</div>
+                    <p class="image__description">Intermedio</p>
+                </div>
+            </div>
+            
+            <div class="image">
+                <img image__img src="./IMAGE/js.svg" alt="" srcset="">
+                <div class="image__overlay">
+                    <div class="image__title">Javascript</div>
+                    <p class="image__description">Basico</p>
+                </div>
+            </div>
+            
+        </div>
 
+        <!-- UBICACION -->
         <section id="ubicacion">
             <h2>Mas sobre mi</h2>
             <h3>de donde soy?</h3>
             <h3>mis estudios</h3>
         </section>
 
-        <div class="conteiner_skills">
+        <section id="contacto">
+            <!-- Formulario de Contacto -->
             
-            <div class="skill" ><img src="./IMAGE/html.svg" alt="" srcset=""></div>
+            <div class="ubicacion"></div>
+        </section>
             
-
-            <div class="skill"><img  src="./IMAGE/css.svg" alt="" srcset=""></div>
-            
-
-            <div class="skill"><img  src="./IMAGE/js.svg" alt="" srcset=""></div>
-            
+        </article>
+    <!-- id java -->
+    <p id="lola">asd</p>
+    <button type="button" onclick="myFunction()">Try it</button>
+    <div class="container-card">
+        <div class="funtion">
+            <div class="card">
+                <div class="image"></div>
+            </div>
         </div>
-        <div class="conteiner_skills black">
-        </div>
-
-    </article>
-
+    </div>
+    <footer class="contacto">
+        <div class="mis__redes"></div>
+    </footer>
 </body>
 </html>
+<!-- <div class="Contactame"><h2>contacto</h2>
+    <form id="contacto" method="get" action="" >
+
+        Nombre
+        <label for="nombre">Nombre</label><br>
+        <input id="nombre" type="text" name="nombre" placeholder="Ingrese su Nombre"><br>
+
+        Apellido
+        <label for="apellido">Apellido</label><br>
+        <input id="apellido" type="text" name="apellido" placeholder="Ingrese su Apellido"><br>
+
+        Email
+        <label for="email">Email</label><br>
+        <input id="email" type="email" name="email" placeholder="Ingrese su Email"><br>
+
+        Comentario
+        <label for="text">Comentario:</label><br>
+        <textarea name="text" id="text" cols="30" rows="10"></textarea><br>
+        Boton - Enviar
+        <input id="submit" type="submit" value="Enviar">
+    </form></div> 
+    -->
