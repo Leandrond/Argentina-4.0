@@ -176,10 +176,19 @@ article section{
 
 /* CONTACTO  */
 
-#contacto {
-    background-color: #f2f2f2;
-    padding: 20px;
-  }
+#contacto{
+    display: flex; 
+    flex-wrap: wrap;
+    background-color: rgba(25, 31, 49, 0.43);
+    /* ajustamos en el eje X */
+    justify-content:space-around;
+    /* ajustamos en el eje y */
+    align-items: center;
+    width: 100%;
+    padding: 2rem;
+    border-radius: 15px;
+    margin-top: 1%;
+    }
   
   form {
     max-width: 500px;
@@ -215,7 +224,7 @@ article section{
     background-color: #45a049;
   }
 
-  
+
 
 
 
