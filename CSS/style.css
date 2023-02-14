@@ -177,18 +177,11 @@ article section{
 /* CONTACTO  */
 
 #contacto{
-    display: flex; 
-    flex-wrap: wrap;
-    background-color: rgba(25, 31, 49, 0.43);
-    /* ajustamos en el eje X */
-    justify-content:space-around;
-    /* ajustamos en el eje y */
-    align-items: center;
-    width: 100%;
+    background-color: rgb(49 25 34 / 60%);    
     padding: 2rem;
     border-radius: 15px;
     margin-top: 1%;
-    }
+}
   
   form {
     max-width: 500px;
@@ -206,7 +199,7 @@ article section{
     padding: 10px;
     margin-top: 5px;
     margin-bottom: 10px;
-    border: 2px solid #ccc;
+    border: 2px #ccc;
     border-radius: 4px;
     box-sizing: border-box;
   }
