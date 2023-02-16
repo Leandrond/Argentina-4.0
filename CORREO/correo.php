@@ -8,7 +8,7 @@ if (isset($_POST['enviar'])){
         $header = "X-Mailer: PHP/".phpversion();
         $mail = @mail($nombre,$mensaje,$email);
         if ($mail){
-            echo"-";
+            echo "<h4>Enviado<h4>";
         }
     }
 }
