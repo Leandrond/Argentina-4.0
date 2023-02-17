@@ -11,11 +11,14 @@ html{
     line-height: 1.15;
 }
 body{
-    background-image:url(/IMAGE/fondo_hd.mp4);
+    background-color: deepskyblue;
     color: #ffffff;
     font-weight: 400;
     font-family: 'Overpass', sans-serif;
     padding: 10px;
+}
+.header-video{
+    position: fixed;
 }
 /* HEADER - IMAGEN DE PRESENTACION  */
 header{
