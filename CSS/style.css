@@ -19,7 +19,7 @@ body{
 }
 .header-video{
     position: fixed;
-    width: 100%;
+    width: 250vh;
     z-index: -1;
 }
 .header-video-style{
