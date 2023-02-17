@@ -118,7 +118,12 @@ article section{
 .img_2{
     rotate: 120deg;
 }
-
+.problemas_tecnicos{
+    width: 40vw;
+}
+.auto{
+    height: auto;
+}
 
 /* Skills */
 .conteiner_skills{
@@ -227,7 +232,9 @@ article section{
     background-color: #45a049;
   }
 
-
+#ubicacion{
+    margin-bottom: 14vh;
+}
 
 
 
