@@ -121,7 +121,7 @@ article section{
 .problemas_tecnicos{
     width: 40vw;
 }
-.auto{
+div{
     height: auto;
 }
 
@@ -197,19 +197,19 @@ article section{
     border-radius: 15px;
     margin-top: 1%;
 }
-  
-  form {
+
+form {
     max-width: 500px;
     margin: 0 auto;
-  }
-  
-  label {
+}
+
+label {
     display: block;
     font-weight: bold;
     margin-top: 10px;
-  }
-  
-  input[type="text"], input[type="email"], textarea {
+}
+
+input[type="text"], input[type="email"], textarea {
     width: 100%;
     padding: 10px;
     margin-top: 5px;
@@ -217,20 +217,20 @@ article section{
     border: 2px #ccc;
     border-radius: 4px;
     box-sizing: border-box;
-  }
-  
-  input[type="submit"] {
+}
+
+input[type="submit"] {
     background-color: #4CAF50;
     color: white;
     padding: 12px 20px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
-  }
-  
-  input[type="submit"]:hover {
+}
+
+input[type="submit"]:hover {
     background-color: #45a049;
-  }
+}
 
 #ubicacion{
     margin-bottom: 14vh;
