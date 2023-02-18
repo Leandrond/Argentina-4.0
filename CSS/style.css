@@ -201,6 +201,7 @@ article section{
 form {
     max-width: 500px;
     margin: 0 auto;
+    min-width: 30vw;
 }
 
 label {
@@ -235,9 +236,15 @@ input[type="submit"]:hover {
 #ubicacion{
     margin-bottom: 14vh;
 }
+/* */
+#contacto{
+    display: flex;
+    justify-content: space-between;
+}
 #contacto-redes-sociales {
     float: right;
-    width: 200px;
+    text-align: end;
+    margin: auto 0;
 }
 
 #contacto-redes-sociales h2 {
