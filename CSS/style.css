@@ -235,6 +235,31 @@ input[type="submit"]:hover {
 #ubicacion{
     margin-bottom: 14vh;
 }
+#contacto-redes-sociales {
+    float: right;
+    width: 200px;
+}
+
+#contacto-redes-sociales h2 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+#contacto-redes-sociales ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#contacto-redes-sociales li {
+    margin-bottom: 5px;
+}
+
+#contacto-redes-sociales li img {
+    height: 30px;
+    margin-right: 5px;
+    vertical-align: middle;
+}
 
 
 
