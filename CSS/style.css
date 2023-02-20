@@ -272,6 +272,7 @@ input[type="submit"]:hover {
 /*ubicacion*/
 #ubicacion{
     margin-bottom: 14vh;
+    display: block;
 }
 #ubicacion button{
     background: #749fff3b;
@@ -281,7 +282,7 @@ input[type="submit"]:hover {
 }
 #ubicacion button:hover{
     background: white;
-    color: #749fff3b;
+    color: black;
 }
 #parrafo{
     display: block;
@@ -310,7 +311,7 @@ input[type="submit"]:hover {
         width: 160px;
     }
     .conteiner_skills{
-        height: 315px;
+        height: auto;
     }
     
 }
