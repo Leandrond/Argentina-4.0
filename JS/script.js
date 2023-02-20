@@ -17,11 +17,20 @@ const handleSubmit = (event) => {
     .querySelector("form")
     .addEventListener("submit", handleSubmit);
 
-function mostraroculto() {
-  const poculto = document.querySelector("#oculto");
-  if (poculto.style.display === "none") {
-    poculto.style.display = "block";
-  } else {
-    poculto.style.display = "none";
-  }
-}
+// function mostraroculto() {
+//   const poculto = document.querySelector("#oculto");
+//   if (poculto.style.display === "none") {
+//     poculto.style.display = "block";
+//   } else {
+//     poculto.style.display = "none";
+//   }
+// }
+ // Obtener referencias a los elementos del DOM
+ const btnMostrar = document.querySelector("#mostrar");
+ const h1Titulo = document.querySelector("#oculto");
+
+ // Agregar un evento de clic al botón
+ btnMostrar.addEventListener("click", function () {
+   // Mostrar el elemento h1 cambiando su estilo
+   h1Titulo.style.display = "block";
+ });
