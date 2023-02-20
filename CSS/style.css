@@ -273,10 +273,18 @@ input[type="submit"]:hover {
 #ubicacion{
     margin-bottom: 14vh;
 }
-#oculto{
-    display: none;
-} 
+#ubicacion button{
+    background: #749fff3b;
+    color: white;
+    padding: 10px;
+    border: 0;
+}
+#ubicacion button:hover{
+    background: white;
+    color: #749fff3b;
+}
 #parrafo{
+    display: none;
     display: block;
     font-size: larger;
     padding: 15px;
@@ -286,16 +294,7 @@ input[type="submit"]:hover {
 #parrafo a {
     color: powderblue;
 }
-#parrafo button{
-    background: #749fff3b;
-    color: white;
-    padding: 10px;
-    border: 0;
-}
-#parrafo button:hover{
-    background: white;
-    color: #749fff3b;
-}
+
 
 /* Media Query */
 @media (min-width: 360px){
