@@ -233,9 +233,7 @@ input[type="submit"]:hover {
     background-color: #45a049;
 }
 
-#ubicacion{
-    margin-bottom: 14vh;
-}
+
 /* */
 #contacto{
     display: flex;
@@ -271,8 +269,13 @@ input[type="submit"]:hover {
     margin: 20px 0;
 }
 
-
-
+/*ubicacion*/
+#ubicacion{
+    margin-bottom: 14vh;
+}
+#oculto{
+    display: none;
+}
 
 
 /* Media Query */

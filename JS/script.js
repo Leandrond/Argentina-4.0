@@ -17,3 +17,11 @@ const handleSubmit = (event) => {
     .querySelector("form")
     .addEventListener("submit", handleSubmit);
 
+function mostraroculto() {
+  const poculto = document.querySelector("#oculto");
+  if (poculto.style.display === "none") {
+    poculto.style.display = "block";
+  } else {
+    poculto.style.display = "none";
+  }
+}
