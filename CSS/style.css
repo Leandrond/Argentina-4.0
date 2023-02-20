@@ -284,7 +284,6 @@ input[type="submit"]:hover {
     color: #749fff3b;
 }
 #parrafo{
-    display: none;
     display: block;
     font-size: larger;
     padding: 15px;
