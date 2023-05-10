@@ -18,7 +18,7 @@ const handleSubmit = (event) => {
     .addEventListener("submit", handleSubmit);
 
     function mostrarOcultarParrafo() {
-      const pParrafo = document.querySelector("#parrafo");
+      const pParrafo = document.querySelector(".parrafo");
       if (pParrafo.style.display === "none") {
         pParrafo.style.display = "block";
       } else {
