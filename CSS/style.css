@@ -295,7 +295,7 @@ input[type="submit"]:hover {
     color: powderblue;
 }
 .title_certificate{
-    margin: 5px;
+    padding: 5px;
 }
 
 /* Media Query */
