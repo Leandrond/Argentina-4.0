@@ -294,7 +294,9 @@ input[type="submit"]:hover {
 #parrafo a {
     color: powderblue;
 }
-
+.title_certificate{
+    margin: 0.5px;
+}
 
 /* Media Query */
 @media (min-width: 360px){
